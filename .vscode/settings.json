@@ -1,7 +1,13 @@
 {
   "editor.formatOnSave": true,
   "editor.codeActionsOnSave": {
-    "source.fixAll.eslint": true
+    "source.fixAll": true
   },
-  "dimmer.enabled": false
+  "dimmer.enabled": false,
+  "eslint.validate": ["javascript", "javascriptreact", "vue"],
+  "vetur.validation.template": true,
+  "vetur.format.defaultFormatter.html": "prettier",
+  "vetur.trace.server": "messages",
+  "[vue]": { "editor.defaultFormatter": "Vue.volar" },
+  "vetur.format.defaultFormatter.html": "js-beautify-html"
 }

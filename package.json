@@ -2,7 +2,7 @@
   "name": "vanillajs-scss-snowpack-scaffold",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "snowpack dev",
@@ -22,6 +22,7 @@
   "dependencies": {
     "@kurkle/color": "^0.2.1",
     "chart.js": "^3.8.0",
+    "lodash": "^4.17.21",
     "prettier": "2.5.1"
   }
 }

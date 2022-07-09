@@ -3,13 +3,15 @@
     "browser": true,
     "es2021": true
   },
+  "plugins": ["html"],
   "extends": ["eslint:recommended", "plugin:prettier/recommended"],
   "parserOptions": {
     "ecmaVersion": 13,
     "sourceType": "module"
   },
   "rules": {
-    "prettier/prettier": "error"
+    "prettier/prettier":[ "error", {"endOfLine", :"lf"}],
+    "linebreak-style": "unix"
   },
-  "plugins": ["html"]
+"validate"
 }

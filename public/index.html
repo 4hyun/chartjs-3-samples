@@ -3,20 +3,38 @@
 
 <head>
   <link rel="stylesheet" href="dist/scss/style.css" />
-  <meta charset="UTF-8">
-  <title>Date Picker Example</title>
+  <meta charset="UTF-8" />
+  <title>Chart.js 3 - Learning Samples</title>
 </head>
 
 <body>
-  <div class="chartMenu">
-
-  </div>
+  <div class="chartMenu"></div>
   <div class="chartCard">
     <div class="chartBox">
-      <canvas id="myChart"></canvas>
+      <canvas id="myChart-1"></canvas>
+      <canvas id="myChart-2"></canvas>
+      <canvas id="myChart-3"></canvas>
+      <canvas id="myChart-4"></canvas>
+      <canvas id="myChart-5"></canvas>
     </div>
   </div>
-  <script type="module" src="dist/js/index.js"></script>
+  <script src="https://unpkg.com/vue@3"></script>
+
+  <div id="app">{{ message }}</div>
+
+  <script>
+    const {
+      createApp
+    } = Vue;
+    createApp({
+      data() {
+        return {
+          message: 'Hello Vue!',
+        };
+      },
+    }).mount('#app');
+  </script>
+  <script type="module" src="dist/js/main.js"></script>
 </body>
 
 </html>
