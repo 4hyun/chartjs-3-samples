@@ -15,10 +15,13 @@
     "@snowpack/plugin-sass": "^1.4.0",
     "eslint": "^8.10.0",
     "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-html": "^6.2.0",
     "eslint-plugin-prettier": "^4.0.0",
     "snowpack": "^3.8.8"
   },
   "dependencies": {
+    "@kurkle/color": "^0.2.1",
+    "chart.js": "^3.8.0",
     "prettier": "2.5.1"
   }
 }
